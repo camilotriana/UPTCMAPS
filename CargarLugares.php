@@ -7,7 +7,7 @@ $lugar=$_POST['Lugar'];
 
 	$result=mysqli_query($conn,$consulta);
 
-	$cadena="<label>LUGAR:</label> 
+	$cadena="<label><b>LUGAR:</b></label> 
 			<select id='listaLugares' name='listaLugares'>";
 
 	while ($ver=mysqli_fetch_row($result)) {

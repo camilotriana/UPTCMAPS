@@ -9,13 +9,13 @@ if(!isset($_POST["correoL"]) || !isset($_POST["contraseñaL"])){
     $correoL = $_POST["correoL"];
     $contraseñaL = $_POST["contraseñaL"];
     
-    $consulta = "SELECT correo, contraseña FROM usuarios where (correo='$correoL' AND contraseña='$contraseñaL')";
+    $consulta = "SELECT correo, contraseña FROM user where (correo='$correoL' AND contraseña='$contraseñaL')";
     $EnviarConsulta = mysqli_query($conn, $consulta);
     
     if(mysqli_fetch_assoc($EnviarConsulta)){
         echo "<script>
                alert('CORREO Y CONTRASEÑA ENCONTRADA');
-               window.location= 'index.php'
+               window.location= 'SeleccionarLugar.php'
                </script>";
     }
     else{

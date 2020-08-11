@@ -1,0 +1,53 @@
+body{
+    background:url('../Images/8.jpg');
+    text-align: center;
+}
+#imagen{
+     padding: 0.5% 0.5% 0.5%;
+     background:url('../Images/3.jpg');opacity: 0.9;
+     height:53%;
+     width: 37%;
+     margin-left: auto;
+     margin-right:auto;
+    border-radius: 5px;
+}
+#principal{
+    background: white; opacity: 0.9;
+    height:97%;
+    width: 98%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5px;
+}
+#iniciar{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 130%;
+}
+#registrar{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 130%;
+}
+#cabeza{
+    text-align: center;
+}
+#logo1{
+    height: 19%;
+    float: left;
+}
+#logo2{
+    height: 19%;
+    float: right;
+}
+h1{
+    font-size: 240%;
+    font-style: italic;
+}

@@ -15,7 +15,7 @@ if (preg_match("/^[A-Za-z]{2,20}(\.){1}[0-9a-zA-Z]{2,20}(@){1}(uptc.edu.co)$/", 
     if (preg_match("/^[0-9]{7,12}$/", $numeroId)) {
         if (preg_match("/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/", $contraseña)) {
             if ($contraseña == $Ccontraseña) {
-                $consulta = "INSERT INTO usuarios (correo, numeroId, contraseña) VALUES ('$correo', '$numeroId', '$contraseña')";
+                $consulta = "INSERT INTO user (correo, numeroId, contraseña) VALUES ('$correo', '$numeroId', '$contraseña')";
 
                 if (mysqli_query($conn, $consulta)) {
                     echo "<script>

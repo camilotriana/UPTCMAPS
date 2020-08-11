@@ -1,0 +1,57 @@
+body{
+    background:url('../Images/8.jpg');
+    text-align: center;
+}
+
+select{
+    height: 7%;
+    font-size: 95%;
+}
+#imagen{
+     padding: 0.5% 0.5% 0.5%;
+     background:url('../Images/5.jpg');opacity: 0.9;
+     height:63%;
+     width: 35%;
+     margin-left: auto;
+     margin-right:auto;
+    border-radius: 5px;
+}
+#principal{
+    background: white; opacity: 0.9;
+    height:98%;
+    width: 98%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5px;
+    font-size: 130%;
+}
+#cabeza{
+    text-align: center;
+}
+#logo1{
+    height: 15%;
+    float: left;
+}
+#logo2{
+    height: 15%;
+    float: right;
+}
+h1{
+    font-size: 150%;
+    font-style: italic;
+}
+#aceptar{
+    background: black;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 100%;
+}
+p{
+    font-size: 120%;
+}
+label{
+    font-size: 120%;
+}

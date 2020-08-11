@@ -1,0 +1,49 @@
+body{
+    background:url('../Images/8.jpg');
+    text-align: center;
+}
+#baceptar{
+    background: black;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+#imagen{
+     padding: 0.5% 0.5% 0.5%;
+     background:url('../Images/3.jpg');opacity: 0.9;
+     height:53%;
+     width: 35%;
+     margin-left: auto;
+     margin-right:auto;
+    border-radius: 5px;
+}
+#principal{
+    background: white; opacity: 0.9;
+    height:97%;
+    width: 98%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5px;
+}
+input{
+    height: 15%;
+    width: 80%;
+    border-radius: 5px;
+}
+#cabeza{
+    text-align: center;
+}
+#logo1{
+    height: 18%;
+    float: left;
+}
+#logo2{
+    height: 18%;
+    float: right;
+}
+h1{
+    font-size: 180%;
+    font-style: italic;
+}
