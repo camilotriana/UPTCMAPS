@@ -8,7 +8,7 @@ $lugar=$_POST['Lugar'];
 	$result=mysqli_query($conn,$consulta);
 
 	$cadena="<label><b>LUGAR:</b></label> 
-			<select id='listaLugares' name='listaLugares'>";
+			<select id='listaLugares'  name='listaLugares'>";
 
 	while ($ver=mysqli_fetch_row($result)) {
 		$cadena=$cadena.'<option value='.$ver[0].'>'.utf8_encode($ver[1]).'</option>';

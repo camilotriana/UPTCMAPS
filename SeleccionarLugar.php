@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $user = "root";
-$pass = "mysql";
+$pass = "mariadb";
 $name = "uptcmaps";
 $port = "3306";
 
@@ -28,6 +28,7 @@ $mysqli = new mysqli($server, $user, $pass, $name, $port);
                     <h1>SELECCIONAR LUGAR</h1>
                 </div>
                 <br><br>
+                <form action="validarLugares.php">
                 <p><b>CATEGORIA:</b>
                     <select id="tipo" name="tipo">
                         <option value="0">Seleccione:</option>
@@ -38,14 +39,12 @@ $mysqli = new mysqli($server, $user, $pass, $name, $port);
                         }
                         ?>
                     </select>
-                </p>
-                <div id="listaLugares"></div>
-                <br><br>
-                <div id="boton">
-                    <form action="index.php" method="POST">
-                        <input id="aceptar" type="submit" name="registro" value="ACEPTAR">
-                    </form>
-                </div>
+
+                    </p>
+                    <div id="lista"></div>
+                    <br>
+                    <input id="aceptar" type="submit" name="registro" value="ACEPTAR">
+                </form>
             </div>
         </div>
     </body>
@@ -67,7 +66,7 @@ $mysqli = new mysqli($server, $user, $pass, $name, $port);
             url: "CargarLugares.php",
             data: "Lugar=" + $('#tipo').val(),
             success: function (r) {
-                $('#listaLugares').html(r);
+                $('#lista').html(r);
             }
         });
     }

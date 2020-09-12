@@ -2,7 +2,7 @@
 
     $server="localhost";
     $user="root";
-    $pass="mysql";
+    $pass="mariadb";
     $name="uptcmaps";
     $port="3306";
     
