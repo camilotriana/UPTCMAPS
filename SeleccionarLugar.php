@@ -39,7 +39,6 @@ $mysqli = new mysqli($server, $user, $pass, $name, $port);
                         }
                         ?>
                     </select>
-
                     </p>
                     <div id="lista"></div>
                     <br>
