@@ -1,8 +1,14 @@
 var map;
-var latitudActua, longitudLugar;
+var latitudActual, longitudLugar;
 var longitudActual, latitudLugar;
 
-navigator.geolocation.getCurrentPosition(success, error);
+var options = {
+  enableHighAccuracy: true,
+  timeout: 6000,
+  maximumAge: 0
+};
+
+navigator.geolocation.getCurrentPosition(success, error, options);
 
 function success(position) {
     var coordenadas = position.coords;
@@ -15,8 +21,9 @@ function error(error) {
 };
 
 function initMap() {
-    latitudLugar = 5.704822;
-    longitudLugar = -72.941573;
+    latitudLugar = parseFloat(document.getElementById("lat").innerHTML);
+    longitudLugar = parseFloat(document.getElementById("lon").innerHTML);
+    
     map = new google.maps.Map(document.getElementById('mapa'), {
         center: {lat: latitudActual, lng: longitudActual},
         zoom: 16
@@ -45,4 +52,3 @@ function initMap() {
 
     flightPath.setMap(map);
 }
-

@@ -1,49 +1,56 @@
 body{
     background:url('../Images/8.jpg');
-    text-align: center;
-}
-#baceptar{
-    background: black;
-    color: white;
-    height: 35px;
-    width: 100px;
-    border-radius: 5px;
+    width: 100%;
 }
 #imagen{
-     padding: 0.5% 0.5% 0.5%;
-     background:url('../Images/3.jpg');opacity: 0.9;
-     height:53%;
-     width: 35%;
-     margin-left: auto;
-     margin-right:auto;
-    border-radius: 5px;
+    padding: 0.5% 0.5% 0.5%;
+    background:gray;
+    opacity: 0.9;
+    width: 49%;
+    border-radius: 15px;
 }
 #principal{
-    background: white; opacity: 0.9;
-    height:97%;
-    width: 98%;
+    background: white; 
+    opacity: 0.9;
+    width: 100%;
     padding: 1%;
-    margin-left: auto;
-    margin-right:auto;
-    border-radius: 5px;
-}
-input{
-    height: 15%;
-    width: 80%;
-    border-radius: 5px;
-}
-#cabeza{
-    text-align: center;
+    border-radius: 10px;
 }
 #logo1{
-    height: 18%;
-    float: left;
+    width: 150px;
+    max-width: 100%;
 }
 #logo2{
-    height: 18%;
-    float: right;
+    width: 150px;
+    max-width: 100%;
 }
-h1{
-    font-size: 180%;
+#title{
+    font-size: 220%;
     font-style: italic;
+    text-shadow: 2px 1px 3px #ffcc2a;
+}
+#correoL{
+    width: 70%;
+    height: 120%;
+}
+#contraseñaL{
+    width: 70%;
+    height: 120%;
+}
+#baceptar{
+    font-size: 120%;
+    background: gray;
+    color: white;
+}
+.col-md-3{
+    text-align: center;
+}
+.col-md-6{
+    text-align: center;
+}
+.col-md-12{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

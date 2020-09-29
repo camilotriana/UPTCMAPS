@@ -5,53 +5,56 @@ body{
 
 select{
     height: 7%;
-    font-size: 95%;
+    font-size: 90%;
 }
 #imagen{
      padding: 0.5% 0.5% 0.5%;
-     background:url('../Images/5.jpg');opacity: 0.9;
-     height:63%;
-     width: 35%;
+     background:gray;
+     opacity: 0.9;
+     width: 40%;
      margin-left: auto;
      margin-right:auto;
     border-radius: 5px;
 }
 #principal{
     background: white; opacity: 0.9;
-    height:98%;
-    width: 98%;
+    width: 100%;
     padding: 1%;
     margin-left: auto;
     margin-right:auto;
     border-radius: 5px;
     font-size: 130%;
 }
-#cabeza{
-    text-align: center;
-}
 #logo1{
-    height: 15%;
-    float: left;
+    width: 150px;
+    max-width: 100%;
 }
 #logo2{
-    height: 15%;
-    float: right;
+    width: 150px;
+    max-width: 100%;
 }
-h1{
+#title{
     font-size: 150%;
     font-style: italic;
+    text-shadow: 2px 1px 3px #ffcc2a;
 }
-#aceptar{
-    background: black;
+#baceptar{
+    font-size: 90%;
+    background: gray;
     color: white;
-    height: 30px;
-    width: 120px;
-    border-radius: 5px;
-    font-size: 100%;
-}
-p{
-    font-size: 120%;
 }
 label{
-    font-size: 120%;
+    font-size: 100%;
+}
+.col-md-3{
+    text-align: center;
+}
+.col-md-6{
+    text-align: center;
+}
+.col-md-12{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
