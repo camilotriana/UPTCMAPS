@@ -19,8 +19,8 @@ if (preg_match("/^[A-Za-z]{2,20}(\.){1}[0-9a-zA-Z]{2,20}(@){1}(uptc.edu.co)$/", 
 
                 if (mysqli_query($conn, $consulta)) {
                     echo "<script>
-                          alert('Registro agregado');
-                          window.location= 'index.php'
+                          alert('Registro Exitoso');
+                          window.location= 'Login.php'
                           </script>";
                 } else {
                     echo "<script>

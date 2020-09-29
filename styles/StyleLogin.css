@@ -38,9 +38,11 @@ body{
     height: 120%;
 }
 #baceptar{
-    font-size: 120%;
+    font-size: 110%;
     background: gray;
     color: white;
+    width: 30%;
+    margin-bottom: 5px;
 }
 .col-md-3{
     text-align: center;
@@ -53,4 +55,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#recuperarC{
+    font-size: 80%;
 }

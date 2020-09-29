@@ -14,13 +14,12 @@ if(!isset($_POST["correoL"]) || !isset($_POST["contraseñaL"])){
     
     if(mysqli_fetch_assoc($EnviarConsulta)){
         echo "<script>
-               alert('CORREO Y CONTRASEÑA ENCONTRADA');
                window.location= 'SeleccionarLugar.php'
                </script>";
     }
     else{
         echo "<script>
-                alert('!!!!!ERROR CORREO O CONTRASEÑA INCORRECTA!!!!!!');
+                window.alert('!!!!!ERROR CORREO O CONTRASEÑA INCORRECTA!!!!!!');
                 window.location= 'Login.php'
                </script>";
                

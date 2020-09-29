@@ -32,7 +32,7 @@ $resultado = mysqli_query($conn, $sentencia);
                         <img id="logo1" src="Images/logo.png">
                     </div>
                 </div>
-                <br><br><br><br>
+                <br><br>
                 <div class="row"> 
                     <div class="col-md-12">
                         <table id="tabla" border="1" >
